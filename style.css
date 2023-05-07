@@ -1,9 +1,14 @@
-*{
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(243, 224, 224);
-}
-
-.header a {
-
-font-size: large;
-}
+nav {
+ background-color: black;
+ min-height: 35vh;
+ padding-top: 15px;
+} 
+ nav a {
+  display: flex;
+ 
+  justify-content:space-around ;
+  padding: 15px;
+  margin-top: 15px;
+  color:#db7093;
+  font-size: 20px;
+ }
