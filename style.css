@@ -1,14 +1,63 @@
+
+body{
+    font-size: large;
+    justify-content: center;
+    background-color:rgb(212, 192, 196);
+    color:rgb(63, 60, 60) ;
+}
+
 nav {
- background-color: black;
+ background-color: rgb(63, 60, 60);
  min-height: 35vh;
  padding-top: 15px;
+ border-radius: 10px;
 } 
  nav a {
   display: flex;
- 
   justify-content:space-around ;
   padding: 15px;
   margin-top: 15px;
   color:#db7093;
   font-size: 20px;
+ }
+
+
+.presentation-2 p {
+    border: solid,black,5px;
+    display:flex;
+    justify-content:center;
+}
+  
+ h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border:dotted rgb(209, 86, 107);
+    margin:auto;
+  
+ }
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 60, 60);
+    color:pink;
+    border-radius:10px
+
+}
+
+ .image-right img{
+    width:50vh;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+ }
+
+ h3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 60, 60);
+    color:pink;
+    border-radius:10px ;
  }
